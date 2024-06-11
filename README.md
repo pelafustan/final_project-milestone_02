@@ -21,6 +21,10 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 * Utilizar `react-router` para el manejo de rutas.
 * Preparar el front para que consuma los datos generados en el back.
 
+### Sobre este repositorio
+
+Este repositorio es solo para gestionar la entrega del hito 2. El código del frontend está gestionado en otro repositorio, que ha sido agregado como submódulo hacia este repositorio. Tenerlo en consideración al momento de clonar el repositorio, ya que al momento de clonar el repo por defecto no se clonan los submódulos. Referirse a la documentación oficial de `git-submodules` para conocer más sobre el tema.
+
 ### Dependencias
 
 #### Frontend
