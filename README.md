@@ -25,6 +25,21 @@ Un cliente nos ha encomendado desarollar una aplicación web tipo marketplace. E
 
 Este repositorio es solo para gestionar la entrega del hito 2. El código del frontend está gestionado en otro repositorio, que ha sido agregado como submódulo hacia este repositorio. Tenerlo en consideración al momento de clonar el repositorio, ya que al momento de clonar el repo por defecto no se clonan los submódulos. Referirse a la documentación oficial de `git-submodules` para conocer más sobre el tema.
 
+### ¿Cómo hago correr esto? 
+
+Primero que todo, entramos al directorio `frontend`, y una vez ahí corremos lo siguiente:
+
+```bash
+# cuando se usa npm
+npm install && npm run dev
+
+# cuando se usa yarn
+yarn install && yarn run dev
+
+# cuando se usa pnpm
+pnpm install && pnpm run dev
+```
+
 ### Dependencias
 
 #### Frontend
@@ -39,13 +54,11 @@ Este repositorio es solo para gestionar la entrega del hito 2. El código del fr
 
 ### Autores
 
-* [Julio Carvajal](https://github.com/jcartronics)
+* ~~[Julio Carvajal](https://github.com/jcartronics)~~
 * [Nicolás González](https://github.com/NicolasGonzales-96)
 * [Roberto Martínez](https://github.com/RobertoMartinezGuzman)
 * [Patricio Parada](https://github.com/pelafustan)
 
 ### Agradecimientos
 
-* Café negro.
-* Té verde (cuando lele pansha).
 * [Desafío Latam](https://desafiolatam.com/)
